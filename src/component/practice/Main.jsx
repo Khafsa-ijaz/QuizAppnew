@@ -6,7 +6,7 @@ export function Main(){
  return(
     <Provider store={store}>
     {/* <List/> */}
-        { <Quiz/> 
+        <Quiz/> 
     </Provider>
  )
 }
