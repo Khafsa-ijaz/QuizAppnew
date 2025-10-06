@@ -5,8 +5,8 @@ import {Quiz } from "./Quiz"
 export function Main(){
  return(
     <Provider store={store}>
-    <List/>
-        {/* <Quiz/> */}
+    {/* <List/> */}
+        { <Quiz/> 
     </Provider>
  )
 }
